@@ -1,7 +1,7 @@
 # markdown-it-emoji for macOS text replacements
 
-Uses this property lists to use the markdown-it-emoji phrases in your macOS keyboard.
-If you sync your text replacements, you can also use them iOS.
+Use this property lists to use the markdown-it-emoji phrases in your macOS keyboard.
+If you sync your text replacements, you can also use them on iOS.
 
 ## Installation
 
@@ -11,7 +11,7 @@ If you sync your text replacements, you can also use them iOS.
 3. On your Mac, choose Apple menu <img src="https://help.apple.com/assets/5E3B07AD680CE24F6D211AD5/5E3B07B2680CE24F6D211AE3/en_US/e043ddf1a45711e13f0b30612db65e21.png" alt="" height="15" width="13" originalimagename="SharedGlobalArt/IL_AppleLogo.png"> > System Preferences > Keyboard > Text
 4. Drag the `.plist` files from its location to the Text pane
 ![Import drag'n'drop animation](images/import_drag_n_drop.gif "Drag the `.plist` files from its location to the Text pane")
-* It could be useful to turn off [ ] Correct Spelling automatically
+* It could be useful to turn off Correct spelling automatically
 
 ## Compiling the `.plist` files
 

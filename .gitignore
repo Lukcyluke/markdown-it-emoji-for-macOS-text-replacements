@@ -1,0 +1,5 @@
+*.DS_Store
+shortcuts_check_before_commit.plist
+markdown-it-emoji_check_before_commit.plist
+*__pycache__/
+*.pyc

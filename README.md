@@ -22,3 +22,15 @@ To do so:
 
 * Update `markdown_it_emoji.py` and `shortcuts.py`
 * Run `create_plists.py` from within `plist_compiling/`
+
+## Getting your own text replacements back (without having a backup)
+
+You can remove the text replacements provided by this package by using the `isolate_custom_textreplacements.py` script.
+Just export all your text replacements as in [Installation](#installation) and run the script with the exported file as an argument.
+``` bash
+./seperate_custom_textreplacements.py ~/Desktop/Text\ Substitutions.plist
+```
+You can also add a second arg to nicely dump the output into a file.
+``` bash
+./seperate_custom_textreplacements.py ~/Desktop/Text\ Substitutions.plist ~/Desktop/output.plist
+```
